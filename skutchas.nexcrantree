@@ -1,0 +1,43 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=21 nchar=19;
+	Format datatype=standard symbols="0~4";
+	Matrix
+Karaurus            010?000?000?01?0?00
+Liaoxitriton        010?0?1?0???11??000
+Jeholotriton        011?0?1?200??1???13
+Chunerpeton         010?0?10100?01???03
+Valdotriton         010?0?12010?111??00
+Iridotriton         0000???1010?01???00
+Pangerpeton         010?{01}?1000??11??000
+Sirenidae           04{12}1111031121010112
+Hynobiidae          010000{01}00100{01}101000
+Cryptobranchidae    010101102000011{01}000
+Ambystomatidae      020011120{01}0011{01}0100
+Salamandra          0301111201001100100
+Dicamptodon         0200001000001000100
+Plethodontidae      {01}2{02}{01}{12}11241{01}2111010{01}
+Rhyacotriton        0200201000001100100
+Amphiumidae         1201111030001110100
+Proteidae           022121113012101010{23}
+Regalerpeton        010?011?1?0?01???03
+Seminobatrachus     021?1???110?11?0?03
+Batrachosauroididae 030?1?1?3?0?111000{23}
+Kokartus            010?0???100??0?0?03
+	;
+End;
+begin trees ; 
+tree tnt_1 = [&U] 
+(1,(21,(((2,(5,((16,(14,(20,(8,17)))),(12,((11,19),(13,15)))))),(6,(9,18))),(7,(3,(4,10))))));
+tree tnt_2 = [&U] 
+(1,(21,(((6,(2,(5,((16,(20,(8,17))),(12,(14,((11,19),(13,15)))))))),(9,18)),(7,(3,(4,10))))));
+tree tnt_3 = [&U] 
+(1,(21,(((2,(5,((16,(20,(8,17))),(12,(14,((11,19),(13,15))))))),(6,(9,18))),(7,(3,(4,10))))));
+tree tnt_4 = [&U] 
+(1,(21,(((2,((12,(14,((5,(13,15)),(11,19)))),(16,(20,(8,17))))),(6,(9,18))),(7,(3,(4,10))))));
+tree tnt_5 = [&U] 
+(1,(21,(((6,(2,(5,((16,(14,(20,(8,17)))),(12,((11,19),(13,15))))))),(9,18)),(7,(3,(4,10))))));
+
+end ; 
+begin paup; exclude uninf; pscores /ci=yes ri=yes single=all scorefile=skutchas.cranlog ; end;
