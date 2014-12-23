@@ -1,0 +1,28 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=12 nchar=25;
+	Format datatype=standard symbols="0~2";
+	Matrix
+Limosa       0110000011001010100000{01}00
+Glareola     0101000010100010010000000
+Stercorarius 1001001100110001111100011
+Laricola     110110??1011010??111000??
+Anous        1101110000110001?11100110
+Larosterna   1101110010010111110101010
+Sterna       1101110010010111110111{01}10
+Rynchops     1101110000010111010110010
+Xema         1101110010010111111100010
+Rhodostetia  1101110010010111111100010
+Larus        1101110010010111111100010
+Rissa        1101110010010111111100010
+	;
+End;
+begin trees ; 
+tree tnt_1 = [&U] 
+(1,(2,(3,(5,(4,((8,(6,7)),((9,10),(11,12))))))));
+tree tnt_2 = [&U] 
+(1,(2,(3,(4,(5,((8,(6,7)),(11,(10,(9,12)))))))));
+
+end ; 
+begin paup; exclude uninf; pscores /ci=yes ri=yes single=all scorefile=depietri.postlog ; end;

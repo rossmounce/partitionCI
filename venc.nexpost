@@ -1,0 +1,23 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=15 nchar=16;
+	Format datatype=standard symbols="0~2";
+	Matrix
+Hypotheticalancestor 0000000000000000
+Salamandrasalamandra 0010010000000000
+Pleurodeleswaltl     0100200010110101
+Tylototriton         0100100011110111
+Echinotriton         0100100011110111
+Salamandrina         1100211000000000
+Calotritonasper      1111101111111121
+Ommatotriton         0101201111111121
+Lissotritonhelvetics 0101201111111121
+Mesotriton           0101201111111121
+Triturus             0101201111111121
+Carpathotriton       ????????1??????1
+Archaeotriton        ?????1??????????
+Cynopspyrrhogaster   0101201111111121
+Paramesotriton       010120111111?121
+	;
+End;

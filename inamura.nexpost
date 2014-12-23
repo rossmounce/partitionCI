@@ -1,0 +1,16 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=8 nchar=15;
+	Format datatype=standard symbols="0~2";
+	Matrix
+Outgroup         000000000000000
+Trichodontidae   21{01}111111111100
+Anoplopomatoidea 010010100000001
+Zaniolepidoidea  000001{01}{01}1000001
+Hexagrammoidea   01{01}10110{01}101101
+Cottoidea        {12}12{01}111111{01}1111
+Cyclopteroidea   2111111{01}1111111
+Bathymasteridae  010110001000000
+	;
+End;

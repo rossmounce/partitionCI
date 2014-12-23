@@ -1,0 +1,26 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=18 nchar=25;
+	Format datatype=standard symbols="0~3";
+	Matrix
+Propalaeohoplophorusaustralis 000000002?000122202010?00
+Dasypusnovemcinctus           0000000?0?000010000010?01
+Bradypusvariegatus            1000101021000001020102?01
+Planopsmartini                1100011?1?011011021102021
+Hapalopslongipes              1100?1110101101102?1020?1
+Megatheriumamericanum         1022003200011001110111101
+Eremotheriumlaurillardi       10220031001110021101?1101
+Nothrotheriummaquinensis      20??0?21012?1002000102021
+Nothrotheriopsshastensis      20??0?2100221002000102001
+Choloepushoffmanni            11111110112?1120211110001
+Acratocnusodontrigonus        11111110110201212?2111021
+Megalocnusrodens              111111102121?1212?2110021
+Diabolotheriumnordenskioldi   1012002?2?02112??021?20?1
+Megalonyxjeffersonii          1111111021011122202110001
+Pliometanastesprostitus       1111111?2?01?12?20?111021
+Eucholoeopsingens             111111101?011011002102001
+Scelidodonchiliensis          1022000110120010010100020
+Mylodondarwini                1100100010110011012100020
+	;
+End;

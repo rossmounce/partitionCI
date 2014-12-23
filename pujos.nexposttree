@@ -1,0 +1,38 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=18 nchar=17;
+	Format datatype=standard symbols="0~3";
+	Matrix
+Propalaeohoplophorusaustralis 000000000?1000010
+Dasypusnovemcinctus           000000000?1002010
+Bradypusvariegatus            1110??0?2????1?0?
+Planopsmartini                00???000200100???
+Hapalopslongipes              00002001111001001
+Megatheriumamericanum         11012112?00100?10
+Eremotheriumlaurillardi       11012112100100110
+Nothrotheriummaquinensis      10001121200101111
+Nothrotheriopsshastensis      10001121200101111
+Choloepushoffmanni            1010??0?2????1?0?
+Acratocnusodontrigonus        010020002????11??
+Megalocnusrodens              00002200211?21101
+Diabolotheriumnordenskioldi   111?2????22011??1
+Megalonyxjeffersonii          00002021201021111
+Pliometanastesprostitus       00??????221?11???
+Eucholoeopsingens             010????0?????????
+Scelidodonchiliensis          0000010120?122111
+Mylodondarwini                01002101200122201
+	;
+End;
+begin trees ; 
+tree tnt_1 = [&U] 
+(1,(2,((3,(5,(4,(16,(10,(14,(12,(15,(11,13))))))))),(((6,7),(8,9)),(17,18)))));
+tree tnt_2 = [&U] 
+(1,(2,(3,((5,(4,(((6,7),(8,9)),(17,18)))),(16,(10,(14,(12,(15,(11,13))))))))));
+tree tnt_3 = [&U] 
+(1,(2,(3,(5,((4,(((6,7),(8,9)),(17,18))),(16,(10,(14,(12,(15,(11,13)))))))))));
+tree tnt_4 = [&U] 
+(1,(2,(3,(5,((4,(18,(17,((6,7),(8,9))))),(16,(10,(14,(12,(15,(11,13)))))))))));
+
+end ; 
+begin paup; exclude uninf; pscores /ci=yes ri=yes single=all scorefile=pujos.postlog ; end;

@@ -1,0 +1,41 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=25 nchar=25;
+	Format datatype=standard symbols="0~2";
+	Matrix
+Retroculuslapidifer            0000000000000000000010000
+Heterochromismultidens         0000000000000000000000000
+Ptychochromisgrandidieri       1100000000000000000000000
+Ptychochromisoligacanthus      1100000000000000000000000
+Ptychochromoidesvondrozo       1100000000000000000000000
+Katriakatria                   1100000000000000000000000
+Oxylapiapolli                  1000100000000000001001000
+Paratilapiacf_bleekeri         0000000000000000000000000
+Paratilapiapolleni             0000000000000000000000000
+Etropluscanarensis             1001000101111111111100111
+Etroplusmaculatus              1001000101111111111100110
+Etroplussuratensis             1001000101111111111100111
+Paretroplusdamii               1010111111111111111101110
+Paretroplusdambabe             1010111111111112111101111
+Paretroplusgymnopreopercularis 1010111111111112111101110
+Paretropluskieneri1            1010111111111112111101110
+Paretropluskieneri2            1010111111111112111101110
+Paretropluslamenabe            1010111111111111111111110
+Paretroplusmaculatus           1010111111111112111101111
+Paretroplusmaromandia          1010111111111112111101111
+Paretroplusmenarambo           1010111111111112111101111
+Paretroplusnourissati          1010111111111111111111110
+ParetropluspetitiHOLO          101011111???1112111101??1
+Paretropluspolyactis           1010111111111112111101110
+Paretroplustsimoly             1010111111111111111111110
+	;
+End;
+begin trees ; 
+tree tnt_1 = [&U] 
+(1,(2,(((7,(5,(6,(3,4)))),((11,(10,12)),((13,(22,(18,25))),((24,(19,((14,23),(20,21)))),(15,(16,17)))))),(8,9))));
+tree tnt_2 = [&U] 
+(1,(2,((((6,(3,4)),(5,7)),((11,(10,12)),((13,(22,(18,25))),((24,((23,(14,20)),(19,21))),(16,(15,17)))))),(8,9))));
+
+end ; 
+begin paup; exclude uninf; pscores /ci=yes ri=yes single=all scorefile=sparks.cranlog ; end;

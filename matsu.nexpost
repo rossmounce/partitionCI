@@ -1,0 +1,23 @@
+#NEXUS
+begin data;
+dimensions ntax=14 nchar=29;
+format missing=? symbols="0~2";
+matrix
+Youngina         00000000000000000000000000000
+Petrolacosaurus  101000000?0?00000000120000000
+Nothosaurus      ?11110??????2010010100?11000{01}
+Pachypsaurs      1110?0{12}20?1?20110100000111000
+Mesosuchus       1011?00000??0101000?101001000
+Lazarussuchus    ?0000{01}2011000001?00010000?000
+Cteniogenys      1110001211?1100???00?00??10?1
+Champsosaurus    1110101211?1111110{01}1110001101
+Tchoiria         1110111211??{12}11100011?0??0101
+Ikechosaurus     ?1111112?0?1?111000{01}11000?101
+Simoedosaurus    1111121210??21111011110001101
+Hyphalosaurus    ??101?12?110{12}1000101111111?01
+Monjurosuchus    ?010?{01}10100100010001100000011
+Philydrosaurus   1010101111???00100??100?00011
+;
+end;
+
+exclude 1 19 ;

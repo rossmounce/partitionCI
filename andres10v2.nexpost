@@ -1,0 +1,26 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=18 nchar=31;
+	Format datatype=standard symbols="0~5";
+	Matrix
+Ornithosuchus_longidens         000000000000?000?0????00?000000
+Herrerasaurus_ischigualastensis 0?000?000000?00000????00?000020
+Scleromochlus_taylori           ?0000?000000?10???????10?00002?
+Preondactylus_buffarinii        ?00?0?100100100000000000?0000??
+Eudimorphodon_ranzii            000?0110020?10?1???????001?????
+Austriadactytlus_cristatus      ?0?00?????0????10?0100?????????
+Peteinosaurus_zambelli          ??001?1001001001001000100000010
+Dimorphodon_macronyx            00001?1001001001000000010011010
+Campylognathoides_liasicus      0000111002011011010111111110111
+Rhamphorhynchus_muensteri       10001{12}1003111111011111111110111
+Dorygnathus_banthensis          1000131003110101000001111110111
+Scaphognathus_crassirostris     0000121003110101000001111110111
+Sordes_pilosus                  1000120004111101000001111011111
+Jeholopterus_ningchengensis     ?1110?0111010101111011111010010
+Dendrorhynchoides_curvidentatus ?1110?01140101?1?111111??010010
+Batrachognathus_volans          ?10??2011411?1?1?????????010???
+Anurognathus_ammoni             01{01}100001401010111101111?010010
+pterodactyloidea                010102200500110{01}0{01}1{01}11111111120
+	;
+End;

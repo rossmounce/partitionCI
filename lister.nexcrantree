@@ -1,0 +1,36 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=10 nchar=21;
+	Format datatype=standard symbols="0~5";
+	Matrix
+Muntiacusspp         000001000000000000000
+Megalocerosgiganteus 201212222102322202200
+Damadama             201211202102101101100
+Damamesopotamica     101211212?02111102110
+Cervuselaphus        011201202001010001011
+Cervuscanadensis     011201201001010012112
+Cervusnippon         001101213001010102011
+Cervuseldi           000102103011020020020
+Axisaxis             000101004022120010011
+Axisporcinus         000100005012220010021
+	;
+End;
+begin trees ; 
+tree tnt_1 = [&U] 
+(1,(8,(10,(9,((2,(3,4)),(7,(5,6)))))));
+tree tnt_2 = [&U] 
+(1,(8,(((2,(3,4)),(7,(5,6))),(9,10))));
+tree tnt_3 = [&U] 
+(1,(8,((7,((2,(3,4)),(5,6))),(9,10))));
+tree tnt_4 = [&U] 
+(1,(((2,(3,4)),(7,(5,6))),(9,(8,10))));
+tree tnt_5 = [&U] 
+(1,((9,((2,(3,4)),(7,(5,6)))),(8,10)));
+tree tnt_6 = [&U] 
+(1,(((2,(3,4)),(7,(5,6))),(8,(9,10))));
+tree tnt_7 = [&U] 
+(1,(8,(((4,(2,3)),(7,(5,6))),(9,10))));
+
+end ; 
+begin paup; exclude uninf; pscores /ci=yes ri=yes single=all scorefile=lister.cranlog ; end;

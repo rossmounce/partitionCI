@@ -1,0 +1,18 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=10 nchar=18;
+	Format datatype=standard symbols="0~5";
+	Matrix
+Tinamidae       000000000000001000
+Anseriformes    000000001000000000
+Steatornithidae 101000001000000000
+Podargidae      10?0?0101100000000
+Caprimulgidae   010001111011110111
+Nyctibiidae     011000111011110111
+Aegothelidae    011011101100111100
+Apodidae        011111{01}01100111100
+Hemiprocnidae   011111101100111100
+Trochilidae     00?101001100111000
+	;
+End;

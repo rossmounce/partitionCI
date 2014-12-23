@@ -1,0 +1,23 @@
+xread
+23 19
+Gavia                     102?2??11?01000001?1100
+Diomedea                  002?2??10?1111100001000
+Fregata                   ?0??2??11?0100100201020
+Pygoscelisadeliae         00101110120011011110121
+Pygoscelisantarctica      00101110120110011110121
+Pygoscelispapua           00101110111110011110121
+Megadytesantipodes        000011100100???11?001?1
+Eudypteschrysocome        00001010111011111101111
+Eudypteschrysolophus      00001??0111????11?011?1
+Eudyptespachyrrhynchus    00[01]01??0111????11?011?1
+Eudyptesminor             001110010100011112011?1
+Spheniscusdemersus        00001??1011???111?011?1
+Spheniscushumboldti       00011?11[01]11???111?011?1
+Spheniscusmagellanicus    00011011[01]11010111201121
+Spheniscusmendiculus      00011?11011????11?011?1
+Aptenodytesforsteri       111011001011000111000?1
+Aptenodytespatagonicus    111010001010100111000?1
+Madrynornismirandus       00000010111101111201111
+Paraptenodytesantarcticus 1??1201?1?1?10011101101
+;
+procedure /;

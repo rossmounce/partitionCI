@@ -1,0 +1,24 @@
+xread
+36 20
+Crypturollus_undulatus         000000?00000000000000000000100001000
+Trogon_massena                 100201100000000000000000000100000000
+Leptosomus_discolor            100000000?10000000101000000000000000
+Eurypyga_helias                000000000010000000001000100000000000
+Steatornis_caripensis          100211?100000010100000001000?0000000
+Nyctibius_greseus              001100010120110000000111021010000011
+Nyctibius_grandis              001100010120110000000111021010000011
+Masillapodargus_longipes       ??101??101????1??0??20?0??0?0?111100
+Eurofluvioviridavis_robustipes ?0100??????????000??2???????0?0?000?
+Fluvioviridavis_PA_607         1?101101000?00101000200011000?110100
+FluvioviridavisSMNKPAL         ?1101?0100??????????????01??????0???
+Fluvioviridavis_combination    11101101000?00101000200011000?110100
+Podargus_strigoides            11101111110?010110112000110001111100
+Batrachostomus_auritus         11101111110?010110112000110001111100
+Caprimulgus_carolinensis       001100000020110001000111021010000011
+Paraprefica_kelleri            001100??0???1100??0?0??102??1?000011
+Aegotheles_cristatus           001100?100010100010010000111?0000001
+Hemiprocne_comata              001100?100110100010010000111?0000000
+Amazilia_tzacatl               001000?100110000010010000111?0000000
+Aerodramus_vanikorensis        001100?10?110100010010000111?0000000
+	;
+procedure /;

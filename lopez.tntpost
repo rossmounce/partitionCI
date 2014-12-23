@@ -1,0 +1,33 @@
+xread
+19 29
+Perleidus                     0000000?00000000000
+Watsonulus_eugnathoides       0000000?00000000000
+Amia_calva                    000111?0????0??0200
+Leptolepis_coryphaenoides     00011000???00??0000
+Pholidophorus_bechei          00011000???00000000
+Siemensichthys                00000000??000000000
+Dapedium                      002001000000000???0
+Lepisosteus                   1100000101000111211
+Atractosteus                  1100000001000111211
+Masillosteus                  1100000001000121201
+Obaichthys                    1000000????0101?200
+Dentilepisosteus              10?0000001001110201
+Pliodetes_nigeriensis         01?0000????01010200
+Araripelepidotes_temnurus     0100000000001020200
+Isanichthys_palustris         0?????0????00??0100
+Scheenstia_mantelli           01100000000000201?1
+Lepidotes_gigas               0120?000000001201?1
+Neosemionotus_puntanus        ?1??001100010??00?0
+Callipurbeckia_minor          01200010101100201?0
+Tlayuamichin_itztli           0120001010110?20010
+Macrosemimimus_lennieri       ?120000????00?200?0
+Semionotus_elegans            0010001?10120??0000
+Paralepidotus_ornatus         0?10010100100010??0
+Semiolepis_brembanus          0110000100110010???
+Macrosemius                   001111?110??00002?0
+Notagogus                     001[01]110010?00000200
+Propterus                     0011010110100000200
+Sangiorgioichthys_sui         ?020000100210000010
+Luoxiongichthys_hyperdorsalis ???0010?0010000????
+;
+procedure /;

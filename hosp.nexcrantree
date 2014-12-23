@@ -1,0 +1,32 @@
+#NEXUS
+begin data;
+dimensions ntax=19 nchar=20;
+format missing=? symbols="0~2";
+matrix
+Gavia            ?11?01000{01}0011000?10
+Diomedea         011?0000111011111110
+Fregata          ?00?0?00111011211?1?
+Pygoscelisadeliae 10101111000110001011
+Pygoscelisantarctica 10001101000110001011
+Pygoscelispapua  10101011100110101011
+Megadytesantipodes 100110011{01}0110010001
+Eudypteschrysocome 101110011{01}0110001102
+Eudypteschrysolophus 100110011{01}0110001102
+Eudyptespachyrrhynchus 10111001110110101102
+Eudyptesminor    101111011{01}0111200101
+Spheniscusdemersus 10121101111001100002
+Spheniscushumboldti 10121101111001200002
+Spheniscusmagellanicus 10121101111001200002
+Spheniscusmendiculus 10121101111001200002
+Aptenodytesforsteri 01101111000110001001
+Aptenodytespatagonicus 01101111000110001111
+Madrynornismirandus 101210011101112000?2
+Paraptenodytesantarcticus ?????010???01?200??1
+;
+end;
+begin trees ; 
+tree tnt_1 = [&U] 
+(1,((2,3),(19,(((7,(6,((4,5),(16,17)))),(18,(10,(8,9)))),(11,(15,(12,(13,14))))))));
+
+end ; 
+begin paup; exclude uninf; pscores /ci=yes ri=yes single=all scorefile=hosp.cranlog ; end;

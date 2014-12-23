@@ -1,0 +1,29 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=9 nchar=23;
+	Format datatype=standard symbols="0~2";
+	Matrix
+Sinraptor           1100001001100?000000000
+Allosaurus          11000010101000101000100
+Neovenator          01001101001000110110010
+Eocarcharia         ???????????????????????
+Acrocanthosaurus    00111101010111111100111
+Tyrannotitan        ?????111100?0?10?1????1
+Mapusaurus          ???????11??11110111111?
+Giganotosaurus      100111?1?00?11001111101
+Carcharodontosaurus ??11000?????1???1110??1
+	;
+End;
+begin trees ; 
+tree tnt_1 = [&U] 
+(1,(2,(3,(6,((4,5),(8,(7,9)))))));
+tree tnt_2 = [&U] 
+(1,(2,(3,((4,5),(6,(8,(7,9)))))));
+tree tnt_3 = [&U] 
+(1,(2,(3,(6,((4,5),(9,(7,8)))))));
+tree tnt_4 = [&U] 
+(1,(2,(3,((4,5),(6,(9,(7,8)))))));
+
+end ; 
+begin paup; exclude uninf; pscores /ci=yes ri=yes single=all scorefile=sereno08.postlog ; end;

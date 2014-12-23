@@ -1,0 +1,17 @@
+#NEXUS
+begin data;
+dimensions ntax=10 nchar=17;
+format missing=? symbols="0~1";
+matrix
+Pleurosternonbullockii 000000000000?0???
+Glyptopsplicatulus 000000000000?0???
+Trinitichelyshiatti ???00?00000001000
+Neurankylusexemius 10000000000001000
+Plesiobaenaantiqua 11110100000111111
+Boremyspulchra   1101101?111010101
+Palatobaenacohen 11110?000001111?1
+Stygiochelysestesi ???????1111?0?11?
+Baenaarenosa     11100111101001111
+Chisternonundatum 11101101111001111
+;
+end;

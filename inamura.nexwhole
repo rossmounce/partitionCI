@@ -1,0 +1,23 @@
+#NEXUS
+begin data;
+dimensions ntax=8 nchar=31;
+format missing=? symbols="0~2";
+matrix
+Outgroup         0000000000000000000000000000000
+Trichodontidae   01010101{01}100110021{01}111111111100
+Anoplopomatoidea 1100100000100101010010100000001
+Zaniolepidoidea  1110100010000101000001{01}{01}1000001
+Hexagrammoidea   111010001000010101{01}10110{01}101101
+Cottoidea        1{12}11{01}11{01}100{12}011{01}{12}12{01}111111{01}1111
+Cyclopteroidea   101{12}{02}11111{01}{12}0{02}102111111{01}1111111
+Bathymasteridae  0100110010101101010110001000000
+;
+end;
+
+exclude 19 ;
+
+begin trees ; 
+tree tnt_1 = [&U] 
+(1,(8,(3,(4,(5,(2,(6,7)))))));
+
+end ; 

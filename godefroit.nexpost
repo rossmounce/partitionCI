@@ -1,0 +1,22 @@
+#NEXUS
+begin data;
+dimensions ntax=15 nchar=9;
+format missing=? symbols="0~3";
+matrix
+Bactrosaurus     000000000
+Tsintaosaurus    111111000
+Amurosaurus      11?111000
+Corythosaurus    211111000
+Lambeosaurus     211111000
+Parasaurolophus  211111110
+Charonosaurus    ?11111110
+Wulagasaurus     ???002???
+Maiasaura        200002001
+Brachylophosaurus 200002001
+Gryposaurus      200002000
+Kerberosaurus    20??????0
+Saurolophus      3?000200?
+Prosaurolophus   200002000
+Anatotitan       300002000
+;
+end;

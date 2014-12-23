@@ -1,0 +1,37 @@
+#NEXUS
+begin data;
+dimensions ntax=24 nchar=16;
+format missing=? symbols="0~4";
+matrix
+PolypterusPolypterus 000000210100200?
+AcipenserAcipenser 1000000000000000
+LepisosteusLepisosteus 1000010111001111
+AmiaAmia         0110112131003001
+ElopsElops       0001112111104011
+HiodonHiodon     1?40112111104001
+PerleidusPerleidus 0000010101000???
+HulettiaHulettia 104?1101?1?04?11
+MacrosemiusMacrosemius 1021?11101002?11
+WatsonulusWatsonulus 010?11111100001?
+CaturusCaturus   0111111111003???
+SemionotusSemionotus 1001111101012111
+LepidotesLepidotes 10011111??012?11
+DapediumDapedium 003?1101??024?1?
+MesturusMesturus 103?11?1?1024?0?
+PachycormusPachycormus 010011012110401?
+MacrepistiusMacrepistius 0?1?1?11??004???
+DiscoserraDiscoserra 004?122101024?01
+MimiaMimia       000000000000000?
+PteronisculusPteronisculus 0000?0000000000?
+MesopomaMesopoma 000??0000??00?00
+AustralosomusAustralosomus 0?01?001???01?0?
+AmphicentrumAmphicentrum 00???0000??00?0?
+PholidophorusPholidophorus 00??11011110???1
+;
+end;
+begin trees ; 
+tree tnt_1 = [&U] 
+(1,(2,(19,(20,(21,(23,(22,(7,(18,(((3,(9,(12,13))),(10,(17,(4,11)))),((16,(24,(5,6))),(8,(14,15)))))))))))));
+
+end ; 
+begin paup; exclude uninf; pscores /ci=yes ri=yes single=all scorefile=hurley.postlog ; end;

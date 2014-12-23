@@ -1,0 +1,38 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=22 nchar=31;
+	Format datatype=standard symbols="0~3";
+	Matrix
+Ohychodus_jandemarri      000000000???0000?000??000000200
+Miguashaia_bureaui        0?0000010???0000?000??000000100
+Uranolophus_wyomingensis  0000?0?10????000?00???0??1???00
+Osteolepis_macrolepidotus 0?0000011???10000000??000111200
+Cheirolepis_canadensis    001101100001100100200?010101010
+Cheirolepis_schultzei     0011011000001001002???0????????
+Cheirolepis_trailli       0011011000101001002000010111010
+Osorioichthys_marginis    0?10011010??111000101?0??1?????
+Tegeolepis_clarki         ???0??1?10??11110000??10?010110
+Howqualepis_rostridens    1?10111?002?1110002010110111110
+Donnrosenia_schaefferi    ?1111?1?002?11100020??11?111?10
+Mimia_toombsi             1110111110??1110002011101211111
+Krasnoyarichthys_jesseni  ??11?1?11?10?1100020??10?212211
+Moythomasia_durgaringa    111111100???1110102011101211111
+Moythomasia_nitida        11111110011111101020?1101211111
+Stegotrachelus_finlayi    1?111110011111101010?1101211211
+Kentuckia_hlavini         0110???10???101000?????0121?21?
+Cuneognathus_gardineri    1?10?11000??10?00121????1?1?211
+Limnomis_delaneyi         1?10111000??10100121??1?1211211
+Melanecta_anneae          0??0??100???11?00010??101101211
+Wendyichthys_dicksoni     0?10?11000??1??000101?101101210
+Woodichthys_bearsdeni     0?10111000??11100010??101101211
+	;
+End;
+begin trees ; 
+tree tnt_1 = [&U] 
+(1,(2,((3,4),((5,(6,7)),(8,(11,((9,10),((12,13),((16,(14,15)),((17,(20,(21,22))),(18,19)))))))))));
+tree tnt_2 = [&U] 
+(1,(2,(4,(3,((7,(5,6)),(8,((11,(9,10)),(((12,13),((17,(20,(21,22))),(18,19))),(16,(14,15))))))))));
+
+end ; 
+begin paup; exclude uninf; pscores /ci=yes ri=yes single=all scorefile=swartz09.postlog ; end;

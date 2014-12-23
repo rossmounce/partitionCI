@@ -1,0 +1,26 @@
+#NEXUS 
+
+Begin data;
+	Dimensions ntax=18 nchar=17;
+	Format datatype=standard symbols="0~3";
+	Matrix
+Boreosomus     ??00000?0100?000?
+Birgeria       ??00010?000000000
+Chondrosteus   ??00010?011000000
+Peipiaosteus   ??10010?000000010
+Polyodon       01110100010000011
+Protopsephurus ??11010?011000000
+Psammorhynchus ??10120?211110101
+Hhuso          01101310111111111
+Scaphirhynchus 10101311211111101
+Pkauffmani     11101311311111101
+Phermanni      11101310311111101
+Abrevirostrum  11101310111111111
+Astellatus     11101310111111111
+Aruthenus      10101310111111111
+Afulvescens    11101310111111111
+Aoxyrinchus    11101310111111111
+Atransmontanus 11101310111111111
+Abaeri         11101310111111111
+	;
+End;

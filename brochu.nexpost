@@ -1,0 +1,31 @@
+#NEXUS
+begin data;
+dimensions ntax=24 nchar=23;
+format missing=? symbols="0~3";
+matrix
+Borealosuchus_sternbergii 0000110?100000000000??0
+Pristichampsus_vorax ????01001??000?01010??1
+Leidyosuchus_canadensis ??????????0001?10?11?11
+Mecistops_cataphractus 10?10000001111212011101
+Crocodylus_niloticus 10101010011111212011201
+Crocodylus_porosus 11100011011101212011201
+Crocodylus_rhombifer 00101010011111211011201
+Crocodylus_acutus 00101010011111212011201
+Crocodylus_palustris 10100010111111212111201
+Crocodylus_siamensis 11101110001110212011201
+Crocodylus_intermedius 00101010011111212011201
+Crocodylus_johnstoni 11100011011101212011201
+Crocodylus_mindorensis 11100011011101212011201
+Crocodylus_novaeguineae 11100011011101212011201
+Crocodylus_moreletii 00101010011111212011201
+Osteolaemus_tetraspis ??100011001111211111111
+Osteolaemus_osborni ??100011001111211111111
+“Crocodylus”_pigotti ????00??001?11????10??0
+Tomistoma_schlegelii 02100010011011111010301
+Gavialosuchus_antiquus 0200001?001011?11?00??1
+Dollosuchoides_densmorei 001?111?00?001?1?0?????
+“Crocodylus”_depressifrons ????1101001001?11010??1
+“Crocodylus”_affinis 00111000001001011010??1
+Asiatosuchus_germanicus 001?001?01?0?1?1??????1
+;
+end;
