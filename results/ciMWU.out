@@ -20,7 +20,6 @@ args[1],3437.5,NULL,0.362525516702773,0,two.sided,Wilcoxon rank sum test with co
 args[1],188,NULL,0.0149982869955631,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],24443,NULL,0.679983992343253,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],1771,NULL,0.0352238717334186,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
-args[1],1771,NULL,0.0352238717334186,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],60205,NULL,0.0100438374573979,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],1289,NULL,0.723635964857045,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],986208.5,NULL,0.487499229482928,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
