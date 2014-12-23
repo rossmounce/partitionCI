@@ -1,5 +1,5 @@
 ,statistic,parameter,p.value,null.value,alternative,method,data.name
-args[1],16677,NULL,0.0706193404922962,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
+args[1],16497,NULL,0.519782901915523,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],3211.5,NULL,0.305576081811141,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],6275979,NULL,1.72677374695093e-07,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],576,NULL,0.509425797538372,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
@@ -42,7 +42,7 @@ args[1],18619726,NULL,5.74731466159992e-45,0,two.sided,Wilcoxon rank sum test wi
 args[1],22203,NULL,6.0758761292999e-17,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],254.5,NULL,0.843696303191641,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],85570,NULL,1.77412796246482e-10,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
-args[1],152562,NULL,1.26057479279855e-05,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
+args[1],121313,NULL,0.510145979736963,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],1232,NULL,0.0361096280822937,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],110061,NULL,4.04151538265237e-20,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],9426945.5,NULL,0.0401582190898276,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
@@ -54,7 +54,7 @@ args[1],2882623.5,NULL,1.30464767623128e-32,0,two.sided,Wilcoxon rank sum test w
 args[1],1093184,NULL,0.000177331705962456,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],1546,NULL,0.000526578872775971,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],3487.5,NULL,0.131246434363355,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
-args[1],12693,NULL,0.0352939366666436,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
+args[1],14091,NULL,2.50494687866354e-05,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],9075,NULL,0.0919663248136761,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],56901.5,NULL,8.84425301803992e-24,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],41014,NULL,2.7381759917635e-19,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
@@ -66,7 +66,7 @@ args[1],2349.5,NULL,0.0188293072734828,0,two.sided,Wilcoxon rank sum test with c
 args[1],9536,NULL,8.77734336804684e-10,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],3895.5,NULL,3.73844224633534e-10,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],977.5,NULL,0.837341784938882,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
-args[1],15383.5,NULL,0.164899242974576,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
+args[1],15074,NULL,0.299023272835642,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],3226,NULL,0.119487724275275,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],7163.5,NULL,0.167639485681128,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],888289,NULL,0.0800949478708801,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
@@ -78,7 +78,7 @@ args[1],860.5,NULL,0.00377483403537028,0,two.sided,Wilcoxon rank sum test with c
 args[1],21080,NULL,0.000234539160874803,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],1653.5,NULL,0.630727330348672,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],5965,NULL,0.3069403778319,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
-args[1],810360,NULL,0.0119054074446643,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
+args[1],674532,NULL,4.51974450135626e-07,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],96.5,NULL,0.0571810641496725,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],2754,NULL,0.0111522907020114,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
 args[1],6979.5,NULL,0.885340903869925,0,two.sided,Wilcoxon rank sum test with continuity correction,a and b
